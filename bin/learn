@@ -2,6 +2,7 @@
 
 from absl import app
 from brax.training import learner
+from brax.training import run_act_grad
 
 if __name__ == '__main__':
-  app.run(learner.main)
+  app.run(run_act_grad.main)
